@@ -6,6 +6,10 @@ As I usually do, I've decided to learn a new language while solving these puzzle
 
 ## My reaction to go
 
+Go in general seems to be 90% C with garbage collection with maybe 10% python sprinkled in
+Generally a very verbose, clunky language.
+Strong types combined with no type coercion into strings and no easy ways to manipulate lists means you waste a lot of real estate on type conversions.
+
 ### Things I don't like
 
 - imports and conventions for package naming are very verbose and not immediately obvious
