@@ -67,3 +67,13 @@ func Map[T Number | string](mapper func(T) T, data []T) []T {
 	}
 	return output
 }
+
+// convert []string to []int
+func AtoiMap(input []string) []int {
+	var output []int
+	for _, x := range input {
+		value, _ := strconv.Atoi(x)
+		output = append(output, value)
+	}
+	return output
+}

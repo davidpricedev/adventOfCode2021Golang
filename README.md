@@ -19,8 +19,10 @@ Strong types combined with no type coercion into strings and no easy ways to man
 - lacking negative indexers into arrays - they borrowed the array slicing syntax from python but not the time-saving negative indexers?
 - missing modern string interpolation - and the automated to-string type coercion that would make it easy to do
 - why do we need a different syntax for inferred types? F# and other languages manage just fine without
+- pointers - all the other "modern" languages handle pass-by-ref automatically why did we have to continue with C's pointers?
 
 ### Things I do like
 
 - capital vs lowercase is an interesting way of handling internal vs exported things - the sort of ethos I'd expect from Python
 - core functions seem to generally be immmutable
+- type aliasing
