@@ -10,6 +10,10 @@ Go in general seems to be 90% C with garbage collection with maybe 10% python sp
 Generally a very verbose, clunky language.
 Strong types combined with no type coercion into strings and no easy ways to manipulate lists means you waste a lot of real estate on type conversions.
 
+Go's rigidity is in many ways perfectly antagonistic to all things FP.
+It isn't so much that go makes it hard to do FP, go makes it entirely impossible - largely because it doesn't support flexible generics.
+This forces you to think procedurally instead of functionally.
+
 ### Things I don't like
 
 - imports and conventions for package naming are very verbose and not immediately obvious
@@ -25,4 +29,5 @@ Strong types combined with no type coercion into strings and no easy ways to man
 
 - capital vs lowercase is an interesting way of handling internal vs exported things - the sort of ethos I'd expect from Python
 - core functions seem to generally be immmutable
-- type aliasing
+- supports type aliasing
+- automatic initialization of everything with a zero-value, this makes a few things surprisingly nice
