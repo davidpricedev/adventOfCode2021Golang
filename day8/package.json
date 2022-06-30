@@ -1,0 +1,15 @@
+{
+  "name": "day8",
+  "version": "1.0.0",
+  "description": "## Number-centric thinking",
+  "main": "day8.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "fp-ts": "^2.12.1"
+  }
+}
