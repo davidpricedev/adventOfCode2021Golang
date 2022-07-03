@@ -77,3 +77,21 @@ func AtoiMap(input []string) []int {
 	}
 	return output
 }
+
+func SumInts(input []int) int {
+	sum := 0
+	for _, x := range input {
+		sum += x
+	}
+
+	return sum
+}
+
+func MultInts(input []int) int {
+	output := 1
+	for _, x := range input {
+		output *= x
+	}
+
+	return output
+}
